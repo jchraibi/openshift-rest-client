@@ -1,7 +1,7 @@
 {
-  "name": "openshift-rest-client",
-  "version": "0.6.0",
-  "description": "Node.js client for developing with OpenShift",
+  "name": "openshift-rest-client-jc",
+  "version": "0.6.1",
+  "description": "Node.js client for developing with OpenShift - unofficial fork of openshift-rest-client by Lucas Holmquist",
   "main": "index.js",
   "scripts": {
     "lint": "eslint lib/*.js test/*.js index.js example.js example-with-request.js",
@@ -26,17 +26,17 @@
     "name": "Red Hat, Inc."
   },
   "maintainers": {
-    "name": "Lucas Holmquist",
-    "email": "lholmqui@redhat.com"
+    "name": "jaafar chraibi",
+    "email": "jchraibi@redhat.com"
   },
   "engines": {
     "node": ">= 4.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "bucharest-gold/openshift-rest-client"
+    "url": "jchraibi/openshift-rest-client"
   },
-  "bugs": "https://github.com/bucharest-gold/openshift-rest-client/issues",
+  "bugs": "https://github.com/jchraibi/openshift-rest-client/issues",
   "license": "Apache-2.0",
   "dependencies": {
     "request": "^2.81.0"
